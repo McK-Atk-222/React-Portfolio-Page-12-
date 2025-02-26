@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href="#">
+      <a href="https://drive.google.com/file/d/1fM2PR-qqQfNyW6BDzgXjgX7Fgopdx0Iv/view?usp=sharing">
         Download Resume
       </a>
       <h3>
