@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div>
+    <div className="mt-3 mx-3">
       <h1>Resume</h1>
       <a href="https://drive.google.com/file/d/1fM2PR-qqQfNyW6BDzgXjgX7Fgopdx0Iv/view?usp=sharing">
         Download Resume

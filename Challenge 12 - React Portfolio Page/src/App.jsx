@@ -7,11 +7,13 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
+    <body id='viewport' className="bg-dark text-white navbar-right container-flex ">
       <Nav />
-      <main className="mx-3">
+      <main>
         <Outlet />
       </main>
       <Footer />
+      </body>
     </>
   );
 }

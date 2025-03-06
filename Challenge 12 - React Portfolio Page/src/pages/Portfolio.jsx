@@ -1,46 +1,57 @@
 export default function Portfolio() {
   return (
-    <div>
+    <div className="mt-3 mx-3">
       <h1>Portfolio</h1>
-      <section class="page-section" id="work">
-      <div class="flex-container">
+      <section className="container">
 
-        <a href="#" class="flex-item surf-report">
+      <div className="row py-4">
+      <a href="https://github.com/McK-Atk-222/Chat-App" id='chatApp' className="column w-50">
           <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
+            <h3>Chat App</h3>
+            <span>PERN Stack</span>
           </div>
         </a>
+
+        <a href="https://github.com/McK-Atk-222/Inventory-Manager-Webpage" id='inventoryManager' className="column w-50">
+          <div>
+            <h3>Inventory Manager</h3>
+            <span>Javascript/HTML/CSS/Node</span>
+          </div>
+        </a>
+        </div>
         
-        <a href="#" class="flex-item led-wall">
+        <div className="row py-4">
+        <a href="https://pern-full-stack-react-kanban-board-app-14.onrender.com" id='kanban' className="column w-50">
           <div>
-            <h3>LED Wall</h3>
-            <span>Node/IoT</span>
-          </div>
-        </a>
-        <a href="#" class="flex-item react-calc">
-          <div>
-            <h3>Calculator</h3>
-            <span>React/JavaScript/CSS</span>
+            <h3>Kanban Board</h3>
+            <span>PERN Stack</span>
           </div>
         </a>
 
-        <a href="#" class="flex-item pastel-puzzles">
+        <a href="https://github.com/McK-Atk-222/SQL-Server-Project-Employee-Manager" id='employeeManager' className="column w-50">
           <div>
-            <h3>Pastel Puzzels</h3>
-            <span>MERN Stack</span>
+            <h3>Employee Manager</h3>
+            <span>PostgreSQL</span>
           </div>
         </a>
+        </div>
 
+        <div className="row py-4">
+        <a href="https://github.com/McK-Atk-222/TypeScript-and-Object-Oriented-Programming-Project" id='vehicleManager' className="column w-50">
+          <div>
+            <h3>Vehicle Manager Software</h3>
+            <span>Typescript/Object-Oriented Programming</span>
+          </div>
+        </a>
     
-        <a href="#" class="flex-item run-buddy">
+        <a href="https://github.com/McK-Atk-222/Servers-and-APIs-Project" id='weatherApp' className="column w-50">
           <div>
-            <h3>Run Buddy</h3>
-            <span>HTML/CSS</span>
+            <h3>Weather App</h3>
+            <span>SQL/HTML/CSS</span>
           </div>
         </a>
-
       </div>
+
     </section>
     </div>
   );

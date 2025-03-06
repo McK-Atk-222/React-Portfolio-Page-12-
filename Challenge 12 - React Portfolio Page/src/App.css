@@ -1,42 +1,38 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#headerBackground {
+  background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#chatApp {
+  height: 250px;
+  background-image: url(https://hbr.org/resources/images/article_assets/2020/03/Mar20_10_118886894-1024x576.jpg);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#inventoryManager {
+  height: 250px;
+  background-image: url(https://images.ctfassets.net/wp1lcwdav1p1/1un6n2t3qDgOFvH9xibK1f/0981ca88e6c56c756b3da76e852bd872/GettyImages-1367106352__1_.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#kanban {
+  height: 250px;
+  background-image: url(https://t3.ftcdn.net/jpg/02/59/31/70/360_F_259317013_nJJaBgGGzvXMd6cAyLd6yMJtbdnd61wk.jpg);
 }
 
-.card {
-  padding: 2em;
+#employeeManager {
+  height: 250px;
+  background-image: url(https://elearningindustry.com/wp-content/uploads/2022/09/8-Practical-Ways-To-Improve-Employee-Performance.jpg);
 }
 
-.read-the-docs {
-  color: #888;
+#vehicleManager {
+  height: 250px;
+  background-image: url(https://www.shutterstock.com/image-photo/used-car-sales-stock-sky-600nw-2288043023.jpg);
+}
+
+#weatherApp {
+  height: 250px;
+  background-image: url(https://s.w-x.co/staticmaps/DCT_SPECIAL107_1280x720.jpg?crop=16:9&width=320&format=pjpg&auto=webp&quality=60);
+}
+
+body {
+  min-height: 100vh;
+  height: 100%
 }
