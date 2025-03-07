@@ -44,7 +44,7 @@ export default function Portfolio() {
           </div>
         </a>
     
-        <a href="https://github.com/McK-Atk-222/Servers-and-APIs-Project" id='weatherApp' className="column w-50">
+        <a href="https://weather-app-servers-and-apis-project.onrender.com" id='weatherApp' className="column w-50">
           <div>
             <h3>Weather App</h3>
             <span>SQL/HTML/CSS</span>
